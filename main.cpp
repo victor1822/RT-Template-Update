@@ -5,7 +5,7 @@ int main( void )
     unsigned int x_resolution = 512;
     unsigned int y_resolution = 512;
 
-   OrthographicCamera camera{ -1.25f, 
+  /* OrthographicCamera camera{ -1.25f, 
                                 1.25f, 
                                -1.25f, 
                                 1.25f,
@@ -14,9 +14,9 @@ int main( void )
 				//glm::vec3{ 0.3f, 0.0f,  1.0f },     // position to edit
                                 glm::vec3{ 0.0f, 1.0f,  0.0f },     // up
                                 glm::vec3{ 0.0f, 0.0f, -1.0f } };   // look at
+*/
 
-
-   /* PerspectiveCamera camera{ -1.25f, 
+   PerspectiveCamera camera{ -1.25f, 
                                 1.25f, 
                                -1.25f, 
                                 1.25f,
@@ -25,7 +25,7 @@ int main( void )
                                 //glm::vec3{ 0.0f, 0.0f,  1.0f },     // position to comment to edit
 				glm::vec3{ 0.0f, 0.0f,  10.0f },     // position to edit
                                 glm::vec3{ 0.0f, 1.0f,  0.0f },     // up
-                                glm::vec3{ 0.0f, 0.0f, -1.0f } };   // look at*/
+                                glm::vec3{ 0.0f, 0.0f, -1.0f } };   // look at
 
 
     Scene scene{};
