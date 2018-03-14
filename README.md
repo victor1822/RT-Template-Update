@@ -36,6 +36,7 @@ Para verificar a corretude do meu código, posicionei 8 esferas, como mostra os 
 Posicionei a câmera ortográfica em (0.0f,0.0f,1.0f), obtive o seguinte resultado:
 
 ![captura de tela de 2018-03-13 22-25-24](https://user-images.githubusercontent.com/30930332/37378323-7f369208-270d-11e8-9210-b80c0b4fd427.png)
+
 Posicionando a mesma camera em (1.5f,0.0f,1.0f), sem modificar o vetor look at, obtive o seguinte resultado:
 
 ![captura de tela de 2018-03-13 22-44-12](https://user-images.githubusercontent.com/30930332/37378964-250c0bca-2710-11e8-9187-952cbda28162.png)
