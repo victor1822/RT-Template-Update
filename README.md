@@ -23,7 +23,9 @@ Para randomizar as cores, precisei criar uma nova propriedade "cor" nas classes:
 ### Testes e análise de corretude do que foi requisitado na atividade 2 do RT-template
 
 #### Teste com as 8 esferas
+
 Para verificar a corretude do meu código, posicionei 8 esferas, como mostra os comandos do arquivo "scene.cpp", mostrados a seguir:
+
    "primitives_.push_back( Primitive::PrimitiveUniquePtr( new Sphere{ glm::vec3{ -0.5f, 0.5f, -1.0f }, 0.2f } ) );
     primitives_.push_back( Primitive::PrimitiveUniquePtr( new Sphere{ glm::vec3{ -0.5f, -0.5f, -1.0f }, 0.2f } ) );
     primitives_.push_back( Primitive::PrimitiveUniquePtr( new Sphere{ glm::vec3{  0.5f,-0.5f, -1.0f }, 0.2f } ) );
