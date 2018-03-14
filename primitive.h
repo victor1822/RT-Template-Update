@@ -18,6 +18,7 @@ public:
 
     virtual bool intersect( const Ray &ray,
                             IntersectionRecord &intersection_record ) const = 0;
+    glm::vec3 cor;
 };
 
 #endif /* PRIMITIVE_H_ */

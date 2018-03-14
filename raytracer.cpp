@@ -31,13 +31,20 @@ void RayTracer::integrate( void )
         // Loops over image columns
         for ( std::size_t x = 0; x < buffer_.h_resolution_; x++ )
         {
-           intersection_record.t_ = std::numeric_limits< double >::max();
+           intersection_record.t_ = std::numeric_limits< double >::max(); 
 
             Ray ray{ camera_.getWorldSpaceRay( glm::vec2{ x + 0.5f, y + 0.5f } ) };
 
             if ( scene_.intersect( ray, intersection_record ) )
                 //buffer_.buffer_data_[x][y] = glm::vec3{ 1.0f, 0.0f, 0.0f };
-                buffer_.buffer_data_[x][y] = glm::vec3{ intersection_record.t_ * 0.2f };
+		//intersection_record.cor = (glm::vec3{intersection_record.t_*0.2f} + intersection_record.cor);
+		//intersection_record.cor = intersection_record.cor * 0.5f;
+                //buffer_.buffer_data_[x][y] = intersection_record.cor + glm::vec3{intersection_record.t_*0.2f};
+		////buffer_.buffer_data_[x][y] = glm::vec3{intersection_record.cor + intersection_record.t_*0.2f};
+		////buffer_.buffer_data_[x][y][0] = buffer_.buffer_data_[x][y][0]/2;
+		////buffer_.buffer_data_[x][y][1] = buffer_.buffer_data_[x][y][1]/2;
+		////buffer_.buffer_data_[x][y][2] = buffer_.buffer_data_[x][y][2]/2;
+		buffer_.buffer_data_[x][y] = intersection_record.cor;
         }
     }
 
