@@ -95,4 +95,6 @@ Na quarta atividade, o material tipo espelho foi implementado, resultados encont
 
 ![captura de tela de 2018-05-05 13-00-20](https://user-images.githubusercontent.com/30930332/39665112-434463c0-5065-11e8-90d0-cced94316739.png)
 
-### OBS: Na atualização desse repositório para a terceira e quarta atividade descartaram os arquivos raytracer.cpp e raytracer.h e foram substituidos com as implementaçes do path tracer e seus respectivos arquivos .cpp e .h.
+### OBS: Na atualização desse repositório para a terceira e quarta atividade descartaram os arquivos raytracer.cpp e raytracer.h e foram substituidos com as implementaçes do path tracer e seus respectivos arquivos .cpp e .h, por isso, no lugar de atualizar o código atual neste repositório, para preservar o código das primeiras ativdades, criei um outro repositóro cujo link encontra-se a seguir, para publicar as eventuais atualizações das próximas atividades:
+
+https://github.com/victor1822/tmp
