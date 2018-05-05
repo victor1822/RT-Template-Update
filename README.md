@@ -72,12 +72,15 @@ Na terceira atividade, foi implementado primeiramente a leitura da cor de cada o
 Depois, na segunda parte, foi transformado o código que era um ray tracer em path tracer, que leva em consideração o número de raios secundários à colaborar com o valor final do pixel e o realismo do resultado final da imagem formada com o algoritmo do path tracer, conhecido pelo fotorrealismo(na primeira atividade, apenas os materiais perfeitamente difusos foram implementados). Os resultados encontram-se nas figuras a seguir:
 
 12000 amostras e 10 raios secundários:
+
 ![captura de tela de 2018-05-05 12-59-09](https://user-images.githubusercontent.com/30930332/39665072-6885d02a-5064-11e8-810a-a326b7d89f49.png)
 
 10000 amostras e 8 raios secundários:
+
 ![captura de tela de 2018-05-05 13-00-39](https://user-images.githubusercontent.com/30930332/39665077-905f6c96-5064-11e8-8a7a-d5dc86d2d980.png)
 
 300 amostras e 8 raios secundários:
+
 ![captura de tela de 2018-05-05 12-59-38](https://user-images.githubusercontent.com/30930332/39665087-c821befe-5064-11e8-9554-f15f64b3408f.png)
 
 ## Quarta atividade
@@ -85,9 +88,11 @@ Depois, na segunda parte, foi transformado o código que era um ray tracer em pa
 Na quarta atividade, o material tipo espelho foi implementado, resultados encontram-se a seguir:
 
 1000 amostras e 10 raios secundários:
+
 ![captura de tela de 2018-05-05 12-59-58](https://user-images.githubusercontent.com/30930332/39665120-50e55e26-5065-11e8-986d-d9b9e87c34d2.png)
 
 1000 amostras e 10 raios secundários:
+
 ![captura de tela de 2018-05-05 13-00-20](https://user-images.githubusercontent.com/30930332/39665112-434463c0-5065-11e8-90d0-cced94316739.png)
 
 ###OBS: Na atualização desse repositório para a terceira e quarta atividade descartaram os arquivos raytracer.cpp e raytracer.h e foram substituidos com as implementaçes do path tracer e seus respectivos arquivos .cpp e .h.
